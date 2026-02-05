@@ -46,14 +46,17 @@ export function TrustIndicators() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          className="text-center mb-12"
+          className="text-center mb-8"
         >
           <h2 className="text-display-lg text-primary mb-4">
             Built on Trust & Excellence
           </h2>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
+        {/* Gap Separator */}
+        <div className="h-8 md:h-10 lg:h-12" />
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
           {trustItems.map((item, index) => (
             <motion.div
               key={index}
@@ -120,6 +123,9 @@ export function TrustIndicators() {
           ))}
         </div>
 
+        {/* Gap Separator */}
+        <div className="h-8 md:h-10 lg:h-12" />
+
         {/* Premium Stats Section */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -128,7 +134,7 @@ export function TrustIndicators() {
           viewport={{ once: true }}
           className="mb-8"
         >
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto mb-8">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto mb-4">
             <StatCard
               icon={CheckCircle}
               value="99.9%"
@@ -151,6 +157,9 @@ export function TrustIndicators() {
               delay={0.3}
             />
           </div>
+          
+          {/* Gap Separator */}
+          <div className="h-6 md:h-8" />
           
           {/* Trust Badges */}
           <div className="flex flex-wrap justify-center items-center gap-6">

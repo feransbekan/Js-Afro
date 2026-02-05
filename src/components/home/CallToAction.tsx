@@ -51,15 +51,15 @@ export function CallToAction() {
         />
       </div>
 
-      <div className="container-max relative z-10">
+      <div className="container-max relative z-10 flex justify-center">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          className="text-center max-w-5xl mx-auto bg-white/[0.03] backdrop-blur-xl border border-white/[0.10] rounded-3xl p-12 shadow-xl shadow-black/30"
+          className="w-full max-w-5xl bg-white/[0.03] backdrop-blur-xl border border-white/[0.10] rounded-3xl p-8 sm:p-12 shadow-xl shadow-black/30"
         >
-          <div className="relative">
+          <div className="relative text-center">
             {/* Decorative elements */}
             <motion.div
               className="absolute -top-4 -left-4 w-8 h-8 bg-amber-400 rounded-full opacity-60"
@@ -77,9 +77,10 @@ export function CallToAction() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
               viewport={{ once: true }}
+              className="space-y-6"
             >
-              <div className="text-center mb-6">
-                <h2 className="text-display-lg text-primary mb-4">
+              <div className="text-center">
+                <h2 className="text-display-lg text-primary mb-4 text-center">
                   Ready to Start Your Business Journey?
                 </h2>
                 <div className="w-12 h-12 rounded-xl mx-auto bg-gradient-to-br from-amber-400 to-orange-400 flex items-center justify-center">
@@ -87,14 +88,17 @@ export function CallToAction() {
                 </div>
               </div>
               
-              <div className="flex justify-center mb-12">
+              <div className="flex justify-center">
                 <p className="text-body-lg text-secondary max-w-4xl leading-relaxed text-center">
                   Join hundreds of businesses worldwide who trust JS Afro Trading for their international commerce, procurement, and business development needs.
                 </p>
               </div>
 
+              {/* Gap Separator */}
+              <div className="h-8 md:h-10 lg:h-12" />
+
               {/* Contact Options */}
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
                 {contactOptions.map((option, index) => (
                   <PremiumCard
                     key={index}
@@ -119,6 +123,9 @@ export function CallToAction() {
                 ))}
               </div>
 
+              {/* Gap Separator */}
+              <div className="h-8 md:h-10 lg:h-12" />
+
               {/* Primary CTA */}
               <motion.div
                 className="space-y-6 mb-12"
@@ -132,14 +139,14 @@ export function CallToAction() {
                   Request Free Consultation
                   <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform duration-200" />
                 </Link>
-                <p className="text-body-sm text-white/60 leading-relaxed">
-                  No commitment required • Response within 24 hours • Free initial consultation
-                </p>
               </motion.div>
+
+              {/* Gap Separator */}
+              <div className="h-8 md:h-10 lg:h-12" />
 
               {/* Trust Elements */}
               <motion.div
-                className="pt-8 border-t border-white/[0.08]"
+                className="pt-4 border-t border-white/[0.08]"
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.6 }}

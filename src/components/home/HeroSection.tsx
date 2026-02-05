@@ -167,7 +167,7 @@ export function HeroSection() {
           {/* Enhanced CTA Buttons with Gradients */}
           <motion.div
             variants={itemVariants}
-            className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-32 md:mb-48 lg:mb-56"
+            className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-20"
           >
             <GradientButton 
               href="/contact" 
@@ -182,6 +182,9 @@ export function HeroSection() {
               <span>Explore Services</span>
             </Link>
           </motion.div>
+
+          {/* Gap Separator */}
+          <div className="h-8 md:h-10 lg:h-12" />
 
           {/* Enhanced Interactive Stats with Gradient Cards */}
           <motion.div

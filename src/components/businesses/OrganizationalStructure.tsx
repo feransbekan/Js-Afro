@@ -36,17 +36,19 @@ export function OrganizationalStructure() {
   return (
     <section className="section-padding bg-white">
       <div className="container-max">
-        <div className="text-center mb-16">
+        <div className="text-center mb-8">
           <h2 className="text-display-lg text-primary mb-4">
             Organizational Excellence
           </h2>
-          <p className="text-body-lg text-secondary max-w-3xl mx-auto">
-            Our structured approach ensures specialized expertise, efficient operations, 
-            and exceptional service delivery across all business divisions.
+          <p className="text-body-lg text-secondary max-w-3xl mx-auto text-center">
+            Delivering specialized expertise and exceptional service across all business divisions.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
+        {/* Gap Separator */}
+        <div className="h-8 md:h-10 lg:h-12" />
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
           {organizationalFeatures.map((feature, index) => (
             <FeatureCard
               key={index}
@@ -58,6 +60,9 @@ export function OrganizationalStructure() {
             />
           ))}
         </div>
+
+        {/* Gap Separator */}
+        <div className="h-8 md:h-10 lg:h-12" />
 
         {/* CTA Section */}
         <div className="
@@ -85,7 +90,7 @@ export function OrganizationalStructure() {
               and how we can help you achieve your goals.
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-4">
               <Link href="/contact" className="btn-cta">
                 Contact Our Team
                 <ArrowRight size={16} />
@@ -95,7 +100,10 @@ export function OrganizationalStructure() {
               </Link>
             </div>
 
-            <div className="pt-8 border-t border-white/[0.12] dark:border-white/[0.08] light:border-gray-200/[0.5]">
+            {/* Gap Separator */}
+            <div className="h-6 md:h-8" />
+
+            <div className="pt-4 border-t border-white/[0.12] dark:border-white/[0.08] light:border-gray-200/[0.5]">
               <div className="flex flex-wrap justify-center items-center gap-6">
                 <div className="flex items-center space-x-2">
                   <div className="w-2 h-2 bg-emerald-400 rounded-full"></div>

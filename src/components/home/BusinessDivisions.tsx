@@ -88,14 +88,17 @@ export function BusinessDivisions() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          className="text-center mb-20"
+          className="text-center mb-8"
         >
           <h2 className="text-display-lg text-primary mb-4">
             Organized for Excellence
           </h2>
         </motion.div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-20">
+        {/* Gap Separator */}
+        <div className="h-8 md:h-10 lg:h-12" />
+
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
           {divisions.map((division, index) => (
             <PremiumCard
               key={index}
@@ -108,6 +111,9 @@ export function BusinessDivisions() {
             />
           ))}
         </div>
+
+        {/* Gap Separator */}
+        <div className="h-8 md:h-10 lg:h-12" />
 
         {/* Division Stats */}
         <motion.div
@@ -148,6 +154,9 @@ export function BusinessDivisions() {
             />
           </div>
         </motion.div>
+
+        {/* Gap Separator */}
+        <div className="h-8 md:h-10 lg:h-12" />
 
         <motion.div
           initial={{ opacity: 0, y: 20 }}

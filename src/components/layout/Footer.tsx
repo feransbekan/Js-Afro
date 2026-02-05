@@ -134,9 +134,6 @@ export function Footer() {
             <p className="text-body-sm text-tertiary">
               © 2024 JS Afro Trading. All rights reserved.
             </p>
-            <p className="text-body-sm text-tertiary">
-              Professional trading solutions • Built with trust
-            </p>
           </div>
         </div>
       </div>

@@ -72,13 +72,16 @@ export function CompanyValues() {
           ))}
         </div>
 
+        {/* Gap Separator */}
+        <div className="h-8 md:h-10 lg:h-12" />
+
         {/* Corporate Environmental & Ethical Responsibility */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
           viewport={{ once: true }}
-          className="mt-20"
+          className="mt-8"
         >
           <div className="card-elevated max-w-5xl mx-auto">
             <div className="text-center mb-8">

@@ -25,9 +25,9 @@ export function BusinessesHero() {
             {/* Value Proposition */}
             <div className="bg-white/[0.06] backdrop-blur-xl rounded-2xl p-6 mb-12 max-w-2xl mx-auto">
               <p className="text-body-md text-primary font-medium">
-                🎯 <strong>Six specialized divisions</strong> each maintaining deep expertise in their industry vertical.
+                <strong>Six specialized divisions</strong> each maintaining deep expertise in their industry vertical.
                 <br />
-                🌟 <strong>Consistent excellence</strong> across all service areas with proven track records.
+                <strong>Consistent excellence</strong> across all service areas with proven track records.
               </p>
             </div>
 

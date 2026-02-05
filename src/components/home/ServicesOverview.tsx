@@ -75,14 +75,17 @@ export function ServicesOverview() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
-          className="text-center mb-16"
+          className="text-center mb-8"
         >
           <h2 className="text-display-lg text-primary mb-4">
             Comprehensive Business Solutions
           </h2>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+        {/* Gap Separator */}
+        <div className="h-8 md:h-10 lg:h-12" />
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
           {services.map((service, index) => (
             <ServiceCard
               key={index}
@@ -105,6 +108,9 @@ export function ServicesOverview() {
             </ServiceCard>
           ))}
         </div>
+
+        {/* Gap Separator */}
+        <div className="h-8 md:h-10 lg:h-12" />
 
         <motion.div
           initial={{ opacity: 0, y: 20 }}
