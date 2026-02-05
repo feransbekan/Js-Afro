@@ -64,7 +64,7 @@ export function Footer() {
               <div className="space-y-3">
                 <div className="flex items-center space-x-3">
                   <Mail size={16} className="text-primary-500" />
-                  <span className="text-body-sm text-secondary">info@jsafrotrading.com</span>
+                  <span className="text-body-sm text-secondary">info@js-afro.com</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <Phone size={16} className="text-primary-500" />

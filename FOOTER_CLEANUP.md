@@ -15,7 +15,7 @@ JS Afro Trading (Logo)
 Professional international trading company providing comprehensive business solutions across multiple industries.
 
 Contact Info:
-- Email: info@jsafrotrading.com
+- Email: info@js-afro.com
 - Phone: +1 (555) 123-4567
 - Location: International Business Hub
 - Global: Serving Clients Worldwide
@@ -26,7 +26,7 @@ Contact Info:
 JS Afro Trading (Logo)
 
 Contact Info:
-- Email: info@jsafrotrading.com
+- Email: info@js-afro.com
 - Phone: +1 (555) 123-4567
 - Location: International Business Hub
 - Global: Serving Clients Worldwide

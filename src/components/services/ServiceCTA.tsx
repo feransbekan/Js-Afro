@@ -45,7 +45,7 @@ export function ServiceCTA() {
                 <Mail size={20} className="text-accent-orange" />
                 <div className="text-left">
                   <div className="text-body-sm text-tertiary">Email us</div>
-                  <div className="text-body-md text-primary font-medium">info@jsafrotrading.com</div>
+                  <div className="text-body-md text-primary font-medium">info@js-afro.com</div>
                 </div>
               </div>
             </div>

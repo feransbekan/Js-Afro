@@ -18,8 +18,8 @@ const contactOptions = [
     icon: Mail,
     title: 'Email Us',
     description: 'Get detailed information',
-    contact: 'info@jsafrotrading.com',
-    href: 'mailto:info@jsafrotrading.com',
+    contact: 'info@js-afro.com',
+    href: 'mailto:info@js-afro.com',
     iconColor: 'gold' as const,
   },
   {

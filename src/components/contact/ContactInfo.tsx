@@ -19,7 +19,7 @@ const contactDetails = [
   {
     icon: Mail,
     title: 'Email Address',
-    details: ['info@jsafrotrading.com', 'Response within 24 hours'],
+    details: ['info@js-afro.com', 'Response within 24 hours'],
     color: 'text-accent-purple',
   },
   {
@@ -120,7 +120,7 @@ export function ContactInfo() {
               Call Now
             </a>
             <a
-              href="mailto:info@jsafrotrading.com"
+              href="mailto:info@js-afro.com"
               className="btn-secondary text-center"
             >
               <Mail size={16} />
