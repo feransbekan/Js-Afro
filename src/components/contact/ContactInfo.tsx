@@ -7,7 +7,7 @@ const contactDetails = [
   {
     icon: MapPin,
     title: 'Office Location',
-    details: ['International Business Hub', 'Global Operations Center'],
+    details: ['Sharjah, United Arab Emirates', 'Global Operations Center'],
     color: 'text-accent-blue',
   },
   {

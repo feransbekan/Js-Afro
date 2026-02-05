@@ -72,7 +72,7 @@ export function Footer() {
                 </div>
                 <div className="flex items-center space-x-3">
                   <MapPin size={16} className="text-primary-500" />
-                  <span className="text-body-sm text-secondary">International Business Hub</span>
+                  <span className="text-body-sm text-secondary">Sharjah, United Arab Emirates</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <Globe size={16} className="text-primary-500" />

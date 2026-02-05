@@ -13,11 +13,11 @@ export const metadata: Metadata = {
   creator: "JS Afro Trading",
   publisher: "JS Afro Trading",
   robots: "index, follow",
-  metadataBase: new URL('https://jsafrotrading.com'),
+  metadataBase: new URL('https://js-afro.com'),
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://jsafrotrading.com",
+    url: "https://js-afro.com",
     siteName: "JS Afro Trading",
     title: "JS Afro Trading - International Trading & Business Solutions",
     description: "Professional international trading company providing comprehensive business solutions.",

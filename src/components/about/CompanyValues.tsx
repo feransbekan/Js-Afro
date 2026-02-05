@@ -71,6 +71,69 @@ export function CompanyValues() {
             </motion.div>
           ))}
         </div>
+
+        {/* Corporate Environmental & Ethical Responsibility */}
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.2 }}
+          viewport={{ once: true }}
+          className="mt-20"
+        >
+          <div className="card-elevated max-w-5xl mx-auto">
+            <div className="text-center mb-8">
+              <div className="w-16 h-16 bg-accent-green bg-opacity-10 rounded-xl flex items-center justify-center mx-auto mb-6">
+                <Globe size={32} className="text-accent-green" />
+              </div>
+              <h3 className="text-display-md text-primary mb-4">
+                🚨 Corporate Environmental & Ethical Responsibility
+              </h3>
+            </div>
+            
+            <div className="prose prose-lg max-w-none text-secondary leading-relaxed">
+              <p className="text-body-lg mb-6">
+                We conduct our general trading, procurement, and logistics operations in line with the principles of the 
+                <strong className="text-primary"> United Nations Global Compact</strong> and the 
+                <strong className="text-primary"> UN Sustainable Development Goals (SDGs)</strong>. 
+                We are strictly committed to ethical sourcing and confirm that we are not involved in toxic, hazardous, 
+                or environmentally harmful activities, nor in child or underage labor of any kind.
+              </p>
+              
+              <p className="text-body-lg">
+                We promote responsible procurement, the use of recyclable and environmentally friendly materials, 
+                and work with partners who share our commitment to sustainability, safety, and regulatory compliance. 
+                Through responsible logistics and continuous improvement, we aim to minimize environmental impact 
+                and contribute to a cleaner, safer, and more sustainable global supply chain.
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8 pt-8 border-t border-default">
+              <div className="text-center">
+                <div className="w-12 h-12 bg-accent-blue bg-opacity-10 rounded-lg flex items-center justify-center mx-auto mb-3">
+                  <Shield size={24} className="text-accent-blue" />
+                </div>
+                <h4 className="text-heading-md text-primary mb-2">Ethical Sourcing</h4>
+                <p className="text-body-sm text-secondary">Zero tolerance for harmful or unethical practices</p>
+              </div>
+              
+              <div className="text-center">
+                <div className="w-12 h-12 bg-accent-green bg-opacity-10 rounded-lg flex items-center justify-center mx-auto mb-3">
+                  <Globe size={24} className="text-accent-green" />
+                </div>
+                <h4 className="text-heading-md text-primary mb-2">Sustainable Operations</h4>
+                <p className="text-body-sm text-secondary">Environmentally responsible logistics and procurement</p>
+              </div>
+              
+              <div className="text-center">
+                <div className="w-12 h-12 bg-accent-orange bg-opacity-10 rounded-lg flex items-center justify-center mx-auto mb-3">
+                  <CheckCircle size={24} className="text-accent-orange" />
+                </div>
+                <h4 className="text-heading-md text-primary mb-2">UN Global Compact</h4>
+                <p className="text-body-sm text-secondary">Aligned with international sustainability standards</p>
+              </div>
+            </div>
+          </div>
+        </motion.div>
       </div>
     </section>
   );

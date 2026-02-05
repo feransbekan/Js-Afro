@@ -17,7 +17,7 @@ Professional international trading company providing comprehensive business solu
 Contact Info:
 - Email: info@js-afro.com
 - Phone: +1 (555) 123-4567
-- Location: International Business Hub
+- Location: Sharjah, United Arab Emirates
 - Global: Serving Clients Worldwide
 ```
 
@@ -28,7 +28,7 @@ JS Afro Trading (Logo)
 Contact Info:
 - Email: info@js-afro.com
 - Phone: +1 (555) 123-4567
-- Location: International Business Hub
+- Location: Sharjah, United Arab Emirates
 - Global: Serving Clients Worldwide
 ```
 

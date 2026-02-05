@@ -268,7 +268,7 @@ npm run start
 
 ### Environment Variables
 ```env
-NEXT_PUBLIC_SITE_URL=https://jsafrotrading.ae
+NEXT_PUBLIC_SITE_URL=https://js-afro.com
 NEXT_PUBLIC_GA_ID=your-google-analytics-id
 ```
 
@@ -304,7 +304,7 @@ NEXT_PUBLIC_GA_ID=your-google-analytics-id
 ## 📞 Support
 
 For technical support or business inquiries:
-- **Email**: info@jsafrotrading.ae
+- **Email**: info@js-afro.com
 - **Phone**: +971 XX XXX XXXX
 - **Address**: Sharjah Publishing City Free Zone, UAE
 
