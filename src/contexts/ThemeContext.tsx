@@ -12,21 +12,20 @@ interface ThemeContextType {
 const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
 
 export function ThemeProvider({ children }: { children: React.ReactNode }) {
-  const [theme, setTheme] = useState<Theme>('dark');
+  const [theme, setTheme] = useState<Theme>('light');
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
     // Use a timeout to avoid synchronous setState in effect
     const timer = setTimeout(() => {
       setMounted(true);
-      // Check for saved theme preference or default to dark
+      // Check for saved theme preference or default to light
       const savedTheme = localStorage.getItem('theme') as Theme;
       if (savedTheme) {
         setTheme(savedTheme);
       } else {
-        // Check system preference
-        const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-        setTheme(systemPrefersDark ? 'dark' : 'light');
+        // Default to light mode
+        setTheme('light');
       }
     }, 0);
     return () => clearTimeout(timer);
@@ -47,7 +46,7 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
   // Prevent hydration mismatch by not rendering theme-dependent content until mounted
   if (!mounted) {
     return (
-      <div className="dark">
+      <div className="light">
         {children}
       </div>
     );
